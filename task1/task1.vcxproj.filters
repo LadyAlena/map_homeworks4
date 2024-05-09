@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="tools">
+      <UniqueIdentifier>{d0b96473-087e-4333-96f6-465d97c542d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shape">
+      <UniqueIdentifier>{8b564b00-b61f-43b4-8a9c-43c3ed7106fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shape\Line">
+      <UniqueIdentifier>{0bd1e80c-8910-4365-aecc-6f7770aa52de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shape\Rectangle">
+      <UniqueIdentifier>{02ba5228-5e3a-4dd7-9c3a-af708f89de66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shape\Parallelepiped">
+      <UniqueIdentifier>{ca836bed-1735-4501-9310-870d7c351f64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shape\Circle">
+      <UniqueIdentifier>{8f09312a-4d2f-48ee-941c-78451d245f9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shape\Cylinder">
+      <UniqueIdentifier>{3b2d35b5-5158-44b4-8089-286ba333ca58}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\tools\Point.hpp">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="source\shape\Line\Line.h">
+      <Filter>Shape\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="source\shape\Circle\Circle.h">
+      <Filter>Shape\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="source\shape\Cylinder\Cylinder.h">
+      <Filter>Shape\Cylinder</Filter>
+    </ClInclude>
+    <ClInclude Include="source\shape\Parallelepiped\Parallelepiped.h">
+      <Filter>Shape\Parallelepiped</Filter>
+    </ClInclude>
+    <ClInclude Include="source\shape\Rectangle\Rectangle.h">
+      <Filter>Shape\Rectangle</Filter>
+    </ClInclude>
+    <ClInclude Include="source\shape\Shape.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="source\shape\Line\Line.cpp">
+      <Filter>Shape\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="source\shape\Circle\Circle.cpp">
+      <Filter>Shape\Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="source\shape\Cylinder\Cylinder.cpp">
+      <Filter>Shape\Cylinder</Filter>
+    </ClCompile>
+    <ClCompile Include="source\shape\Parallelepiped\Parallelepiped.cpp">
+      <Filter>Shape\Parallelepiped</Filter>
+    </ClCompile>
+    <ClCompile Include="source\shape\Rectangle\Rectangle.cpp">
+      <Filter>Shape\Rectangle</Filter>
+    </ClCompile>
+    <ClCompile Include="source\shape\Shape.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
